@@ -1,0 +1,5 @@
+name: SheepFarts
+version: '${project.version}'
+main: com.ashkiano.sheepfarts.SheepFarts
+api-version: '1.16'
+author: AshKiano
