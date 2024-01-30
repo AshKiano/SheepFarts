@@ -14,14 +14,10 @@ public class SheepFarts extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
-        System.out.println("Thank you for using the SheepFarts plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://paypal.me/josefvyskocil");
 
         Metrics metrics = new Metrics(this, 19349);
-    }
 
-    @Override
-    public void onDisable() {
-        // Any logic you want to run when the plugin is disabled
+        this.getLogger().info("Thank you for using the SheepFarts plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @EventHandler
